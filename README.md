@@ -41,7 +41,7 @@ on CRAN. To install, open an R prompt and run:
 ```r
 install.packages("devtools")
 
-devtools::install_github("nick-ulle/rstatic")
+devtools::install_github("nick-ulle/rstatic", build_vignettes = TRUE)
 ```
 
 
